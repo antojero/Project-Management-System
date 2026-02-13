@@ -1,0 +1,62 @@
+# =======================
+# Python compiled files
+# =======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =======================
+# Virtual environment
+# =======================
+venv/
+env/
+.venv/
+.env/
+
+# =======================
+# Django migrations (optional)
+# =======================
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# =======================
+# Database files
+# =======================
+*.sqlite3
+*.db
+*.db-journal
+
+# =======================
+# Logs
+# =======================
+*.log
+*.log.*
+
+# =======================
+# Media and static files (optional)
+# =======================
+media/
+staticfiles/
+
+# =======================
+# IDEs / Editors
+# =======================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =======================
+# MacOS system files
+# =======================
+.DS_Store
+
+# =======================
+# Other
+# =======================
+*.pot
+*.pyc
+*.pyo
+
+
+
